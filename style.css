@@ -1,0 +1,87 @@
+/* /* Smooth scrolling for navigation links */
+html {
+  scroll-behavior: smooth;
+}
+Instagram Icon Styling */
+header a i.fab {
+  font-size: 50px;          /* Makes the icon bigger */
+  color: #c13584;           /* Instagram pink color */
+  transition: transform 0.3s, color 0.3s;  /* Smooth hover effect */
+}
+
+header a i.fab:hover {
+  transform: scale(1.2);    /* Grows a little when hovered */
+  color: #e1306c;           /* Darker pink on hover */
+  cursor: pointer;          /* Shows pointer hand on hover */
+}
+/* Mobile-Friendly Styles */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+/* Instagram Icon Styling */
+header a i.fab {
+  font-size: 50px;          /* Makes the icon bigger */
+  color: #c13584;           /* Instagram pink color */
+  transition: transform 0.3s, color 0.3s;  /* Smooth hover effect */
+}
+
+header a i.fab:hover {
+  transform: scale(1.2);    /* Grows a little when hovered */
+  color: #e1306c;           /* Darker pink on hover */
+  cursor: pointer;          /* Shows pointer hand on hover */
+}
+/* Mobile-Friendly Styles */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .photos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photos img {
+    width: 90%;      /* Makes images almost full width on small screens */
+    max-width: 300px;
+  }
+
+  .services ul li {
+    font-size: 16px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+}
+  .photos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photos img {
+    width: 90%;      /* Makes images almost full width on small screens */
+    max-width: 300px;
+  }
+
+  .services ul li {
+    font-size: 16px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+}
